@@ -15,4 +15,4 @@ df.columns=headers
 # Returns more data above the objects
 #print(df.describe(include="all"))
 #df = df.dropna(subset=["c"], axis=0, inplace = True)
-print(df.tail(10))
+print(df.tail(10)).describe()
