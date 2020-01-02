@@ -27,4 +27,4 @@ print(df.describe())
 print(df.describe(include="all"))
 
 
-print.df(df.info())
+print(df.info())
