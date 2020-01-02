@@ -30,4 +30,4 @@ print(df.describe(include="all"))
 # Gives memory related information
 print(df.info())
 
-print(df[['a', 'b', 'c', 'd']].describe())
+print(df[['a', 'b', 'c', 'd']].info())
