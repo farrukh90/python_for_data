@@ -3,5 +3,4 @@ headers = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n',
 
 url = "https://archive.ics.uci.edu/ml/machine-learning-databases/autos/imports-85.data"
 df = pd.read_csv(url, header = None)
-df.head()
-#print(df.tail(10))
+print(df.tail(10))
