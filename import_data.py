@@ -16,5 +16,5 @@ df.columns=headers
 df = df.describe(include="all")
 print(df)
 
-df = df.replace("NaN", "newvalue")
+df = df.replace("NaN", "newvalue", axis=1)
 print(df)
