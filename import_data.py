@@ -14,3 +14,4 @@ df.columns=headers
 
 # Returns more data above the objects
 print(df.describe(include="all"))
+print(df.dropna(2))
