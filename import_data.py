@@ -17,4 +17,4 @@ print(df.tail(10))
 # Export too "/tmp/somefile"
 df.to_csv("/tmp/somefile")
 print(df.dtypes)
-df.describe()
+print(df.describe())
