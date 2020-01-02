@@ -6,5 +6,5 @@ df.columns=headers
 print(df)
 
 
-df = df["city-mpg"] = 235/df["city-mpg"]
+df = df.rename(columnts={"city-mpg": "city-L/100km", inplace = True})
 print(df)
