@@ -16,3 +16,6 @@ df.columns=headers
 df = df.apply(pd.to_numeric, errors='coerce')
 
 print(df)
+
+df = df.dropna()
+print(df)
