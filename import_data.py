@@ -16,5 +16,9 @@ print(df.tail(10))
 
 # Export too "/tmp/somefile"
 df.to_csv("/tmp/somefile")
+
+# Gives data type for columns
 print(df.dtypes)
+
+# Returns more data above the objects
 print(df.describe())
