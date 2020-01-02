@@ -5,3 +5,7 @@ df = pd.DataFrame({'values_1': ['700','ABC','500','XYZ','1200'],
                    })
 
 print (df)
+
+
+df = df.apply(pd.to_numeric, errors='coerce')
+print(df)
