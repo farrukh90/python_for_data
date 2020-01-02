@@ -12,6 +12,6 @@ df = pd.read_csv(url)
 df.columns=headers
 
 
-
+print(df['a'])
 somenumber = df['a']=df['a']+1
 print(somenumber)
