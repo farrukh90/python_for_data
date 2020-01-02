@@ -1,6 +1,6 @@
 import pandas as pd
 # Creata my own header
-headers = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
+headers = ['a', 'b', 'cat', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
 
 # Get the data from URL and assign it to variable called url
 url = "https://archive.ics.uci.edu/ml/machine-learning-databases/autos/imports-85.data"
