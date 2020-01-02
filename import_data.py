@@ -25,3 +25,6 @@ print(df.describe())
 
 # Full summary statistics including Data for objects
 print(df.describe(include="all"))
+
+
+print.df(df.info())
