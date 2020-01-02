@@ -16,5 +16,5 @@ df.columns=headers
 df = df.describe(include="all")
 print(df)
 
-df = df.replace("NaN", "newvalue")
-print(df)
+mean = df["b"].mean()
+df["b"].replace(np.nan, mean)
