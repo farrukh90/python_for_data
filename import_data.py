@@ -13,3 +13,5 @@ df.columns=headers
 
 # Print out  the data
 print(df.tail(10))
+
+df.to_csv("/tmp/somefile")
