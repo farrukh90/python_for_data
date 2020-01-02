@@ -6,5 +6,5 @@ df.columns=headers
 print(df)
 
 
-df = df.rename(columnts={"city-mpg": "city-L/100km"}, inplace = True)
+df = df.rename(columns={"city-mpg": "city-L/100km"}, inplace = True)
 print(df)
