@@ -13,10 +13,5 @@ df.columns=headers
 
 # Returns more data above the objects
 
-df = df.apply(pd.to_numeric, errors='coerce')
-
-print(df)
-
-
 df = df.dropna(subset=["c"], axis=0, inplace = True)
 print(df)
