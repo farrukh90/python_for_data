@@ -33,5 +33,4 @@ print(df.info())
 # Get 4 columns, and 10 bottom lines
 print(df[['a', 'b', 'c', 'd']].tail(10))
 
-df['a']=df['a']+1
-print(df['a'])
+print(df['a']=df['a']+1)
