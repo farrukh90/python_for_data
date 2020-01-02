@@ -15,4 +15,4 @@ df.columns=headers
 print(df.tail(10))
 
 # Export too "/tmp/somefile"
-df.to_json("/tmp/somefile")
+df.to_excel("/tmp/somefile")
