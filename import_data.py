@@ -22,3 +22,6 @@ print(df.dtypes)
 
 # Returns more data above the objects
 print(df.describe())
+
+# Full summary statistics including Data for objects
+print(df.describe(include="all"))
