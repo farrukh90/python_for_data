@@ -6,3 +6,5 @@ df.columns=headers
 print(df)
 
 
+df = df["city-mpg"] = 235/df["city-mpg"]
+print(df)
