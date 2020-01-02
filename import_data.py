@@ -16,5 +16,5 @@ df.columns=headers
 df = df.describe(include="all")
 print(df)
 
-mean = df["b"].mean()
-df["b"].replace(np.nan, mean)
+df = df.dropna(subset=["c"], axis=0, inplace = True)
+print(df)
