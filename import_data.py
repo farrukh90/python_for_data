@@ -15,5 +15,5 @@ df.columns=headers
 print(df.tail(10))
 
 # Export too "/tmp/somefile"
-df.to_sql("/tmp/somefile")
+df.to_csv("/tmp/somefile")
 print(df.dtypes)
