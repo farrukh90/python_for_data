@@ -13,4 +13,4 @@ df.columns=headers
 
 
 # Returns more data above the objects
-print(df.describe())
+print(df.describe(include="all"))
