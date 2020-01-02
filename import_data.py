@@ -15,5 +15,6 @@ df.columns=headers
 # Returns more data above the objects
 df = df.describe(include="all")
 print(df)
-df = df.dropna(axis=0, inplace = True)
+
+df = df.replace(NaN, "newvalue")
 print(df)
