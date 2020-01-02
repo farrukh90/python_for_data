@@ -12,9 +12,5 @@ df = pd.read_csv(url)
 df.columns=headers
 
 # Returns more data above the objects
-df = df['a','b']
-print(df.describe(include="all"))
 
-print(df)
-df = df.dropna(subset=["c"], axis=0, inplace = True)
-print(df)
+print(df.describe())
