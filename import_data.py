@@ -12,5 +12,5 @@ df = pd.read_csv(url)
 df.columns=headers
 
 # Returns more data above the objects
-
+print(df)
 print(df.describe(include="all"))
